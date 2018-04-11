@@ -1,0 +1,56 @@
+
+.header1 {
+    flex-grow: 0;
+    flex-basis: 150px;
+}
+
+.header2 {
+    flex-grow: 1;
+}
+
+.search {
+    flex-basis: 500px;
+}
+
+.search input {
+    flex-grow: 1;
+}
+
+.icons {
+    flex-basis: 70px;
+    justify-content: space-between;
+}
+
+.compose {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.compose-button {
+    background-color: steelblue;
+    color: white;
+}
+
+.emailcontainer {
+    flex-grow: 1;
+}
+.emailbody p {
+    flex-basis: 100px;
+}
+
+.eicons {
+    flex-basis: 70px;
+    font-size: 1.2em;
+}
+
+.count {
+    background-color: black;
+    color: white;
+}
+.controls {
+    flex-basis: 250px;
+    font-size: 1.2em;
+}
+.emailbody:nth-of-type(odd) { background-color: pink; }
+.emailbody:nth-of-type(even) { background-color: blue; }
